@@ -1,11 +1,14 @@
+/********** Base styles **********/
 *{
     margin: 0;
     padding: 0;
     padding: border-box;
-    }
+}
+
 body{
     font-family: "srisakdi";
 }
+
 .navbar  {
     display: flex;
     align-items: center;
@@ -46,8 +49,8 @@ p{
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
-
 }
+
 .col-2 img{
     max-width: 30%;
     padding: 50px 0;
@@ -96,6 +99,46 @@ background: radial-gradient(#fff,#ffd6d6);
     margin: auto;
     padding-left:25px ;
     padding-right: 25px;
+}
 
+/*Footer Part*/
+.footer{
+    margin: auto;
+    text-align: left;
+    padding-left: 200px;
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
+footer p, .footer-header{
+    color: #F0EBE6;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-header{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#copyright p{
+    color: #CE2532;
+}
+
+/*Rules for Responsibility*/
+.row{
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .large-screen{
+        width: 25%;
+    }
+}
+
+@media (max-width:767px){
+    .small-screen{
+        width: 50%;
+    }
 }
